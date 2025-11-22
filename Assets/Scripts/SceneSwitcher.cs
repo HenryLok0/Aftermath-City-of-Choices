@@ -23,9 +23,9 @@ public class SceneSwitcher : MonoBehaviour
         "4.0.2_Government-Building", // Placeholder for additional scene 15 和平重建和新秩序線結局
         "4.0.3_Government-Building", // Placeholder for additional scene 16 孤狼逃脫結局
         "4.0.4_Government-Building", // Placeholder for additional scene 17 平衡結局
-        "Peace-Reconstruction-and-New Order-Ending", // Placeholder for additional scene 18 
-        "Lone-Wolf-Escape-Ending", // Placeholder for additional scene 19
-        "Balanced-Ending"  // Placeholder for additional scene 20
+        "1-Peace-Reconstruction-and-New Order-Ending", // Placeholder for additional scene 18 
+        "2-Lone-Wolf-Escape-Ending", // Placeholder for additional scene 19
+        "3-Balanced-Ending"  // Placeholder for additional scene 20
     };
 
     public void SwitchScenes1() { LoadSceneByIndex(0); }

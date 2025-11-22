@@ -12,6 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/MainGame.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/4.0.1_Government-Building.unity
+    guid: 6b2e9d2a885294e4e8c52ca505f2ba7c
+  - enabled: 1
+    path: Assets/Scenes/4.0.2_Government-Building.unity
+    guid: 189fdd86ec871d54193e6ed8e82006fa
+  - enabled: 1
+    path: Assets/Scenes/4.0.3_Government-Building.unity
+    guid: 5584a19b9f6e1484d8f493035418b1f1
+  - enabled: 1
+    path: Assets/Scenes/4.0.4_Government-Building.unity
+    guid: 9a1b1c36c2a40404da1702afbecffd34
+  - enabled: 1
     path: Assets/Scenes/3.1.2_Dr.-Chen's-Medical-Center.unity
     guid: a1461210590076a479da1ebf29cb912b
   - enabled: 1
@@ -29,35 +41,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3.1.1_Dr.-Chen's-Medical-Center.unity
     guid: 6021af146302a6140961b4622da119aa
-  - enabled: 0
-    path: Assets/Scenes/Scene11.unity
-    guid: bd601721b937c7f4ea3027e19a5412d3
-  - enabled: 0
-    path: Assets/Scenes/Scene12.unity
-    guid: 0f5877edb8153944ab5944227866b3a7
-  - enabled: 0
-    path: Assets/Scenes/Scene13.unity
-    guid: 49e4b1718e7e8c840890a1b678f08cda
   - enabled: 1
-    path: Assets/Scenes/Scene14.unity
-    guid: 498bf65c1de5ba4439d85b98834a86fd
+    path: Assets/Scenes/1-Peace-Reconstruction-and-New Order-Ending.unity
+    guid: f7e842bbd747d264bb05c8b4e1bb18df
   - enabled: 1
-    path: Assets/Scenes/Scene15.unity
-    guid: 88987c2537fb8ad4c974ac2e4b8d778d
-  - enabled: 1
-    path: Assets/Scenes/Scene16.unity
-    guid: d7b55e4b9526d99499df64fcd6dbe93f
-  - enabled: 1
-    path: Assets/Scenes/Scene17.unity
-    guid: 9e0714cf6563e7a4489306f2c4ada937
-  - enabled: 1
-    path: Assets/Scenes/Scene18.unity
-    guid: 93f1332d677a3fb4e9ee620b20db76e2
-  - enabled: 1
-    path: Assets/Scenes/Scene19.unity
+    path: Assets/Scenes/2-Lone-Wolf-Escape-Ending.unity
     guid: bf5a2c338ed6b03438ef262acf52c69c
   - enabled: 1
-    path: Assets/Scenes/Scene20.unity
+    path: Assets/Scenes/3-Balanced-Ending.unity
     guid: 3a057f78e31f28d438b226f2b19d429a
   - enabled: 1
     path: Assets/Scenes/2.0.1_CommunityCenter.unity
