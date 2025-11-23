@@ -853,9 +853,6 @@ GameObject:
   - component: {fileID: 55303236}
   - component: {fileID: 55303234}
   - component: {fileID: 55303237}
-  - component: {fileID: 55303240}
-  - component: {fileID: 55303239}
-  - component: {fileID: 55303238}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -926,7 +923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -64.59708, y: 291.8319}
+  scrollPos: {x: -48.639626, y: 291.83188}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 535
@@ -938,9 +935,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 55303239}
+  - {fileID: 55303189}
   selectedCommands:
-  - {fileID: 55303238}
+  - {fileID: 55303237}
   variables: []
   description: 
   stepPause: 0
@@ -1135,7 +1132,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &55303234
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1147,7 +1144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 138
   indentLevel: 0
-  storyText: Hi! Can you help us move the car?
+  storyText: Hi! Can you help us?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1187,11 +1184,10 @@ MonoBehaviour:
   commandList:
   - {fileID: 55303236}
   - {fileID: 55303234}
-  - {fileID: 55303240}
   suppressAllAutoSelections: 0
 --- !u!114 &55303236
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1208,7 +1204,7 @@ MonoBehaviour:
   delay: 0
 --- !u!114 &55303237
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1233,75 +1229,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &55303238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 55303183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 142
-  indentLevel: 0
-  targetObject: {fileID: 211075100}
-  methodName: SwitchScenes21
-  delay: 0
---- !u!114 &55303239
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 55303183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 891.19324
-    y: 26.25319
-    width: 112.76596
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 141
-  blockName: New Block
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 55303238}
-  suppressAllAutoSelections: 0
---- !u!114 &55303240
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 55303183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 140
-  indentLevel: 0
-  text: Yes
-  description: 
-  targetBlock: {fileID: 55303239}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
 --- !u!1 &71730228
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,18 +14,24 @@ public class SceneSwitcher : MonoBehaviour
         "2.0.1_CommunityCenter",
         "3.0_Dr.-Chen's-Medical-Center",
         "3.0.1_Dr.-Chen's-Medical-Center",
-        "3.0.2_Dr.-Chen's-Medical-Center",  // Placeholder for additional scene 9 
-        "3.1.1_Dr.-Chen's-Medical-Center", // Placeholder for additional scene 10 (Save Sofia. She's young.)
-        "3.1.2_Dr.-Chen's-Medical-Center", // Placeholder for additional scene 11 (Balance therapy. Give them all some.)
-        "3.1.3_Dr.-Chen's-Medical-Center", // Placeholder for additional scene 12 (This was Dr. Chen's decision.)
-        "3.1.4_Dr.-Chen's-Medical-Center", // Placeholder for additional scene 13 (I'm sorry, I can't help you.)
-        "4.0.1_Government-Building", // Placeholder for additional scene 14 和平重建和新秩序線結局
-        "4.0.2_Government-Building", // Placeholder for additional scene 15 和平重建和新秩序線結局
-        "4.0.3_Government-Building", // Placeholder for additional scene 16 孤狼逃脫結局
-        "4.0.4_Government-Building", // Placeholder for additional scene 17 平衡結局
-        "1-Peace-Reconstruction-and-New Order-Ending", // Placeholder for additional scene 18 
-        "2-Lone-Wolf-Escape-Ending", // Placeholder for additional scene 19
-        "3-Balanced-Ending"  // Placeholder for additional scene 20
+        "3.0.2_Dr.-Chen's-Medical-Center",  // Placeholder for additional scene 9
+        "3.1.1_Dr.-Chen's-Medical-Center",  // Placeholder for additional scene 10 (Save Sofia. She's young.)
+        "3.1.2_Dr.-Chen's-Medical-Center",  // Placeholder for additional scene 11 (Balance therapy. Give them all some.)
+        "3.1.3_Dr.-Chen's-Medical-Center",  // Placeholder for additional scene 12 (This was Dr. Chen's decision.)
+        "3.1.4_Dr.-Chen's-Medical-Center",  // Placeholder for additional scene 13 (I'm sorry, I can't help you.)
+        "4.0.1_Government-Building",        // Placeholder for additional scene 14 和平重建和新秩序線結局
+        "4.0.2_Government-Building",        // Placeholder for additional scene 15 和平重建和新秩序線結局
+        "4.0.3_Government-Building",        // Placeholder for additional scene 16 孤狼逃脫結局
+        "4.0.4_Government-Building",        // Placeholder for additional scene 17 平衡結局
+        "1-Peace-Reconstruction-and-New Order-Ending", // Placeholder for additional scene 18
+        "2-Lone-Wolf-Escape-Ending",        // Placeholder for additional scene 19
+        "3-Balanced-Ending",                // Placeholder for additional scene 20
+        "1.2-Peace-Reconstruction-and-New Order-Ending",                // 1.2 (21)
+        "1.3-Peace-Reconstruction-and-New Order-Ending",                // 1.3 (22)
+        "2.2-Lone-Wolf-Escape-Ending",                // 2.2 (23)
+        "2.3-Lone-Wolf-Escape-Ending",                // 2.3 (24)
+        "3.2-Balanced-Ending",                // 3.2 (25)
+        "3.3-Balanced-Ending"                 // 3.3 (26)
     };
 
     public void SwitchScenes1() { LoadSceneByIndex(0); }
@@ -48,6 +54,12 @@ public class SceneSwitcher : MonoBehaviour
     public void SwitchScenes18() { LoadSceneByIndex(17); }
     public void SwitchScenes19() { LoadSceneByIndex(18); }
     public void SwitchScenes20() { LoadSceneByIndex(19); }
+    public void SwitchScenes21() { LoadSceneByIndex(20); }
+    public void SwitchScenes22() { LoadSceneByIndex(21); }
+    public void SwitchScenes23() { LoadSceneByIndex(22); }
+    public void SwitchScenes24() { LoadSceneByIndex(23); }
+    public void SwitchScenes25() { LoadSceneByIndex(24); }
+    public void SwitchScenes26() { LoadSceneByIndex(25); }
 
     private void LoadSceneByIndex(int index)
     {
