@@ -1239,6 +1239,7 @@ GameObject:
   - component: {fileID: 55303232}
   - component: {fileID: 55303236}
   - component: {fileID: 55303237}
+  - component: {fileID: 55303238}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1301,6 +1302,7 @@ MonoBehaviour:
   - {fileID: 55303218}
   - {fileID: 55303217}
   - {fileID: 55303231}
+  - {fileID: 55303238}
   - {fileID: 55303230}
   suppressAllAutoSelections: 0
 --- !u!114 &55303190
@@ -1328,8 +1330,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 55303236}
-  selectedCommands: []
+  - {fileID: 55303189}
+  selectedCommands:
+  - {fileID: 55303238}
   variables: []
   description: 
   stepPause: 0
@@ -1736,7 +1739,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &55303237
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1747,6 +1750,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 140
+  indentLevel: 0
+  targetObject: {fileID: 211075100}
+  methodName: SwitchScenes6
+  delay: 0
+--- !u!114 &55303238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55303183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 141
   indentLevel: 0
   targetObject: {fileID: 211075100}
   methodName: SwitchScenes6
