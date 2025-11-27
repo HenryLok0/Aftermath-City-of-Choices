@@ -1275,8 +1275,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 124.94187
-    y: 74.65677
+    x: 120.81815
+    y: 75.6877
     width: 77.83505
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1327,8 +1327,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 55303229}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -1734,7 +1733,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 15
+    floatVal: 5
   durationOLD: 0
 --- !u!114 &55303232
 MonoBehaviour:

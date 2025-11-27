@@ -29,7 +29,7 @@ public class SceneSwitcher : MonoBehaviour
         "1.2-Peace-Reconstruction-and-New Order-Ending",                // 1.2 (21)
         "1.3-Peace-Reconstruction-and-New Order-Ending",                // 1.3 (22)
         "2.2-Lone-Wolf-Escape-Ending",                // 2.2 (23)
-        "2.3-Lone-Wolf-Escape-Ending",                // 2.3 (24)
+        "TheEND_Scenes",                // 2.3 (24)
         "3.2-Balanced-Ending",                // 3.2 (25)
         "3.3-Balanced-Ending"                 // 3.3 (26)
     };

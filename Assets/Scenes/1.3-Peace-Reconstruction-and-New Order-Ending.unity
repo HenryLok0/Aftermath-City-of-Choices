@@ -217,7 +217,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 10
-      m_TileSpriteIndex: 13
+      m_TileSpriteIndex: 14
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -227,7 +227,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 12
-      m_TileSpriteIndex: 12
+      m_TileSpriteIndex: 13
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -290,12 +290,12 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: 8d5671a55cc782249a6912f4bccd5f78, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 21300000, guid: f4322d7cf0489824ca31b18bfe57b9ba, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 2
     m_Data:
@@ -855,12 +855,12 @@ GameObject:
   - component: {fileID: 55303233}
   - component: {fileID: 55303235}
   - component: {fileID: 55303237}
-  - component: {fileID: 55303238}
   - component: {fileID: 55303243}
   - component: {fileID: 55303242}
   - component: {fileID: 55303241}
   - component: {fileID: 55303240}
   - component: {fileID: 55303239}
+  - component: {fileID: 55303244}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -897,7 +897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 124.94187
+    x: 123.878044
     y: 79.97591
     width: 78.723404
     height: 40
@@ -934,7 +934,7 @@ MonoBehaviour:
   scrollPos: {x: 59.87098, y: 224.81053}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 535
+  blockViewHeight: 280
   zoom: 0.94
   scrollViewRect:
     serializedVersion: 2
@@ -945,7 +945,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 55303240}
   selectedCommands:
-  - {fileID: 55303239}
+  - {fileID: 55303244}
   variables: []
   description: 
   stepPause: 0
@@ -1152,7 +1152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 457.15015
+    x: 456.0863
     y: 51.785145
     width: 89.3617
     height: 40
@@ -1166,7 +1166,6 @@ MonoBehaviour:
   - {fileID: 55303243}
   - {fileID: 55303242}
   - {fileID: 55303241}
-  - {fileID: 55303238}
   suppressAllAutoSelections: 0
 --- !u!114 &55303237
 MonoBehaviour:
@@ -1195,26 +1194,9 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &55303238
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 55303183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 140
-  indentLevel: 0
-  targetObject: {fileID: 211075100}
-  methodName: SwitchScenes22
-  delay: 0
 --- !u!114 &55303239
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1266,6 +1248,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 55303239}
+  - {fileID: 55303244}
   suppressAllAutoSelections: 0
 --- !u!114 &55303241
 MonoBehaviour:
@@ -1336,6 +1319,23 @@ MonoBehaviour:
   indentLevel: 0
   targetObject: {fileID: 1970120431}
   methodName: SetPlayerCanMoveFalse
+  delay: 0
+--- !u!114 &55303244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55303183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 146
+  indentLevel: 0
+  targetObject: {fileID: 211075100}
+  methodName: SwitchScenes24
   delay: 0
 --- !u!1 &71730228
 GameObject:

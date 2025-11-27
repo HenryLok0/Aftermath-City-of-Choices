@@ -939,8 +939,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 55303239}
-  selectedCommands:
-  - {fileID: 55303238}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1147,7 +1146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 138
   indentLevel: 0
-  storyText: You:(All People Die...)
+  storyText: Hi! Can you help us move the car?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1248,7 +1247,7 @@ MonoBehaviour:
   itemId: 142
   indentLevel: 0
   targetObject: {fileID: 211075100}
-  methodName: SwitchScenes23
+  methodName: SwitchScenes21
   delay: 0
 --- !u!114 &55303239
 MonoBehaviour:
@@ -1264,8 +1263,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 389.0655
-    y: 90.08298
+    x: 391.19318
+    y: 91.146805
     width: 112.76596
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1291,7 +1290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 140
   indentLevel: 0
-  text: Keep Going
+  text: Yes
   description: 
   targetBlock: {fileID: 55303239}
   hideIfVisited: 0
@@ -27765,7 +27764,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -94389227, guid: 39d6f839cd5c5f04ca23de52eee79036, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -28546,7 +28545,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -410626707, guid: 9ab3ac32a5a9eab43bd7c291d90b988a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

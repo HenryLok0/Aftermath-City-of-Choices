@@ -484,6 +484,8 @@ GameObject:
   - component: {fileID: 55303312}
   - component: {fileID: 55303311}
   - component: {fileID: 55303310}
+  - component: {fileID: 55303320}
+  - component: {fileID: 55303319}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -520,7 +522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 124.94187
+    x: 126.94187
     y: 74.65677
     width: 77
     height: 40
@@ -557,6 +559,7 @@ MonoBehaviour:
   - {fileID: 55303310}
   - {fileID: 55303309}
   - {fileID: 55303308}
+  - {fileID: 55303320}
   suppressAllAutoSelections: 0
 --- !u!114 &55303190
 MonoBehaviour:
@@ -582,8 +585,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 55303260}
+  selectedCommands:
+  - {fileID: 55303319}
   variables: []
   description: 
   stepPause: 0
@@ -753,7 +758,8 @@ MonoBehaviour:
   blockName: This was Dr. Chen's decision.
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 55303319}
   suppressAllAutoSelections: 0
 --- !u!114 &55303262
 MonoBehaviour:
@@ -1891,6 +1897,44 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 0.5
   durationOLD: 0
+--- !u!114 &55303319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55303183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 226
+  indentLevel: 0
+  targetObject: {fileID: 211075100}
+  methodName: SwitchScenes16
+  delay: 0
+--- !u!114 &55303320
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55303183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 225
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 55303260}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!1 &71730228
 GameObject:
   m_ObjectHideFlags: 0

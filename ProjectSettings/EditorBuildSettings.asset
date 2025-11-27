@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/TheEND_Scenes.unity
     guid: 4371c857ee9443849895fdad6baddc75
   - enabled: 1
     path: Assets/Scenes/MainGame.unity
@@ -20,6 +20,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2.0.1_CommunityCenter.unity
     guid: 2c96a8cf4a8fd6c4c87ae7eb351730e0
+  - enabled: 1
+    path: Assets/Scenes/2.2-Lone-Wolf-Escape-Ending.unity
+    guid: 0c21cb76d6bbf7b45b63fa73aa42d591
+  - enabled: 1
+    path: Assets/Scenes/3.2-Balanced-Ending.unity
+    guid: 30c6679cb24729940a9104f1f90ec9a4
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 5cfb7d0749bc4ea4da94350691ece71c
   - enabled: 1
     path: Assets/Scenes/4.0.1_Government-Building.unity
     guid: 6b2e9d2a885294e4e8c52ca505f2ba7c

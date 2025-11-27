@@ -849,13 +849,11 @@ GameObject:
   - component: {fileID: 55303219}
   - component: {fileID: 55303232}
   - component: {fileID: 55303233}
-  - component: {fileID: 55303235}
-  - component: {fileID: 55303236}
-  - component: {fileID: 55303234}
   - component: {fileID: 55303237}
-  - component: {fileID: 55303240}
   - component: {fileID: 55303239}
   - component: {fileID: 55303238}
+  - component: {fileID: 55303241}
+  - component: {fileID: 55303240}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -908,6 +906,8 @@ MonoBehaviour:
   - {fileID: 55303233}
   - {fileID: 55303226}
   - {fileID: 55303225}
+  - {fileID: 55303241}
+  - {fileID: 55303240}
   - {fileID: 55303221}
   - {fileID: 55303220}
   - {fileID: 55303219}
@@ -926,10 +926,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -81.6184, y: 113.1086}
+  scrollPos: {x: 219.44542, y: 130.12987}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 280
+  blockViewHeight: 606
   zoom: 0.94
   scrollViewRect:
     serializedVersion: 2
@@ -939,8 +939,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 55303239}
-  selectedCommands:
-  - {fileID: 55303238}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1133,79 +1132,6 @@ MonoBehaviour:
   targetObject: {fileID: 1970120431}
   methodName: SetPlayerCanMoveFalse
   delay: 0
---- !u!114 &55303234
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 55303183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 138
-  indentLevel: 0
-  storyText: You:(All People Die...)
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &55303235
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 55303183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 218.85242
-    y: 82.63621
-    width: 89.3617
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 136
-  blockName: Task 1
-  description: 
-  eventHandler: {fileID: 0}
-  commandList:
-  - {fileID: 55303236}
-  - {fileID: 55303234}
-  - {fileID: 55303240}
-  suppressAllAutoSelections: 0
---- !u!114 &55303236
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 55303183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 17a200dbd67304446a3019434503338a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 137
-  indentLevel: 0
-  targetObject: {fileID: 1970120431}
-  methodName: SetPlayerCanMoveFalse
-  delay: 0
 --- !u!114 &55303237
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1248,7 +1174,7 @@ MonoBehaviour:
   itemId: 142
   indentLevel: 0
   targetObject: {fileID: 211075100}
-  methodName: SwitchScenes23
+  methodName: SwitchScenes24
   delay: 0
 --- !u!114 &55303239
 MonoBehaviour:
@@ -1264,8 +1190,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 389.0655
-    y: 90.08298
+    x: 391.19318
+    y: 91.146805
     width: 112.76596
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1286,22 +1212,45 @@ MonoBehaviour:
   m_GameObject: {fileID: 55303183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 140
+  itemId: 144
   indentLevel: 0
-  text: Keep Going
-  description: 
+  targetFlowchart: {fileID: 0}
   targetBlock: {fileID: 55303239}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &55303241
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55303183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 143
+  indentLevel: 0
+  storyText: All People Die...Only You SAFE...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &71730228
 GameObject:
   m_ObjectHideFlags: 0
@@ -27765,7 +27714,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -94389227, guid: 39d6f839cd5c5f04ca23de52eee79036, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -28546,7 +28495,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -410626707, guid: 9ab3ac32a5a9eab43bd7c291d90b988a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
