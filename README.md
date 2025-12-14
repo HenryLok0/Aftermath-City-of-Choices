@@ -56,7 +56,7 @@ The game features a branching narrative system where your interactions with NPCs
 
 ## 🛠️ Technical Details
 
-*   **Engine**: Unity `2022.3.62f2c1`
+*   **Engine**: Unity **`2022.3.62f2c1`**
 *   **Key Plugins/Assets**:
     *   **Fungus**: Used for flowchart-based narrative logic and dialogue.
     *   **Input System**: Uses Unity's new Input System package.
@@ -78,7 +78,7 @@ https://henrylok0.github.io/Aftermath-City-of-Choices/
 2.  **Open in Unity**:
     *   Launch Unity Hub.
     *   Add the project folder.
-    *   Open the project using Unity version **2022.3.62f2c1**.
+    *   Open the project using Unity version **`2022.3.62f2c1`**.
 3.  **Start the Game**:
     *   Navigate to `Assets/Scenes`.
     *   Open the starting scene: `MainMenu.unity`.
